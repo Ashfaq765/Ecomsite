@@ -1,0 +1,17 @@
+.userInput{
+    margin-bottom:20px;
+    background-color: azure;
+}
+.UserInputPush,.UserInputPop{
+ margin: auto 5px;
+ padding: 3px;
+ background-color: aqua;
+ border-radius: 5px;
+ color: black;
+}
+/* .UserInputPop{
+    margin: auto 5px;
+    padding: 3px;
+    background-color: aqua;
+
+} */

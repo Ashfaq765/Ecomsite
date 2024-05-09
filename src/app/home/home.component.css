@@ -1,0 +1,61 @@
+/* Add this to your global CSS file or the component's CSS file */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen; /* Navbar background color */
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 10px; /* Adjust the spacing between nav items */
+}
+
+.nav-link {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: green; /* Hover background color */
+}
+/* Add this to your global CSS file or the component's CSS file */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333; /* Navbar background color */
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin-right: 10px; /* Adjust the spacing between nav items */
+}
+
+.nav-link {
+    color: #fff; /* Text color */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #555; /* Hover background color */
+}
+/* Path in CSS should be relative to the stylesheet location */
+
+  h2{
+    color: #fff;
+  }

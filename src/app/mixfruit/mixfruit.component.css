@@ -1,0 +1,71 @@
+.product-container{
+    display: flex;
+    justify-content:start;
+    gap:20px;
+  }
+  
+  .stawberry img {
+      width: 400px;
+      height: 500px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+    }
+    .product-info{
+      display: block;
+    }
+    
+    .product-info ul{
+      margin-bottom: 180px ;
+    }
+    .product-info button{
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration:dotted;
+      cursor: pointer;
+      border: 2px solid black;
+      color: black;
+      background-color: aqua;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+      
+    }
+    .product-info button:hover{
+      background-color: aliceblue;
+      color: blue;
+    }
+    .product-info button:active{
+     background-color:lightgreen;
+     color: black;
+    }
+    .product-quantity {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .product-quantity button {
+      padding: 5px 10px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .product-quantity button:hover {
+      background-color: #0056b3;
+    }
+    
+    .product-quantity input[type="number"] {
+      width: 50px;
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 0 10px;
+    }

@@ -1,0 +1,33 @@
+<div *ngIf="booleanValue">
+    <div class="product-container">
+        <div class="stawberry">
+            <img src="../assets/fruits-images/Mixed-fruits.jpg" alt="Product 1">
+        </div>
+        <div class="product-info">
+            <h2>Mixed Fruits</h2>
+            <p>
+                Indulge in the goodness of our fresh mixed fruits selection, carefully curated to offer you a delightful
+                blend of flavors and nutrients. Our mix includes a variety of seasonal fruits, handpicked from local
+                farms and guaranteed to be ripe and delicious.
+            </p>
+
+            <ul>
+                <li>Includes a variety of seasonal fruits such as apples, bananas, oranges, grapes, and more.</li>
+                <li>Rich source of essential nutrients like Vitamin C, potassium, and dietary fiber.</li>
+                <li>Great for boosting immunity, supporting digestion, and promoting overall well-being.</li>
+            </ul>
+
+
+            <h2>price Rs.1000 per kg</h2>
+
+            <div class="product-quantity">
+                <button (click)="decreaseQuantity()">-</button>
+                <input type="number" [(ngModel)]="quantity" min="1">
+                <button (click)="increaseQuantity()">+</button>
+              </div>
+
+            <button (click)="sendDataClicked()">Add to Cart</button>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,30 @@
+<div *ngIf="booleanValue">
+    <div class="product-container">
+        <div class="stawberry">
+            <img src="../assets/fruits-images/stawbery.jpg" alt="Product 1">
+        </div>
+        <div class="product-info">
+            <h1>stawberry</h1>
+            <br>
+            <p>Enjoy our fresh, juicy strawberries picked at peak ripeness from organic farms. These strawberries are
+                perfect for a healthy snack, a delightful dessert, or as a sweet addition to your breakfast.</p>
+            <br>
+            <ul>
+                <li>Rich in Vitamin C and antioxidants.</li>
+                <li>Great for heart health and blood sugar regulation.</li>
+                <li>Organically grown without harmful chemicals.</li>
+            </ul>
+
+            <h2>price Rs.600 per kg</h2>
+
+            <div class="product-quantity">
+                <button (click)="decreaseQuantity()">-</button>
+                <input type="number" [(ngModel)]="quantity" min="1">
+                <button (click)="increaseQuantity()">+</button>
+            </div>
+
+            <button (click)="sendDataClicked()">Add to Cart</button>
+
+        </div>
+    </div>
+</div>

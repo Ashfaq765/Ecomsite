@@ -1,0 +1,10 @@
+<div class="container1">
+<div class="container">
+<h2>Parent Component</h2>
+<ul>
+    <li *ngFor="let item of receivedItems">{{item}}</li>
+</ul>
+<app-test2 (sendArray)="receiveArray($event)"></app-test2>
+</div>
+</div>
+

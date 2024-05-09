@@ -1,0 +1,14 @@
+.container{
+    margin-left: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 410px;
+    border-radius: 10px;
+}
+.container1{
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color:white;
+    margin: auto 400px 300px;
+}
