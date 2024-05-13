@@ -20,6 +20,7 @@ import { PineappleComponent } from './pineapple/pineapple.component';
 import { MixfruitComponent } from './mixfruit/mixfruit.component';
 import { CartComponent } from './cart/cart.component';
 import { ToCartService } from './service/to-cart.service';
+import { Test3Component } from './test3/test3.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { ToCartService } from './service/to-cart.service';
     PineappleComponent,
     MixfruitComponent,
     CartComponent,
+    Test3Component,
     
     
   ],
