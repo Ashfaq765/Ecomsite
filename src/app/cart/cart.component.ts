@@ -15,7 +15,7 @@ export class CartComponent   {
 
   constructor(private toCartService: ToCartService) {
     
-    this.toCartService.data$.subscribe(data => {
+    this.toCartService.dataSubject.subscribe(data => {
       this.receivedData = data;
       
       console.log(this.receivedData.product);

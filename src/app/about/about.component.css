@@ -1,12 +1,10 @@
 .styled-paragraph {
     font-size: 16px; /* Sets the size of the font */
     color: #333; /* Sets the text color to a dark gray */
-    background-color: #f0f0f0; /* Sets a light gray background */
+    /* background-color: #f0f0f0;  Sets a light gray background */
     padding: 10px; /* Adds space inside the borders */
     margin: 20px 0; /* Adds space outside the borders */
-    border-radius: 5px; /* Rounds the corners of the background */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
-    max-width: 600px; /* Restricts the maximum width */
-    margin-left: auto; /* Centers the paragraph by working */
-    margin-right: auto; /* with max-width */
+    /* border-radius: 5px; Rounds the corners of the background */
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); Adds a subtle shadow */
+   
   }

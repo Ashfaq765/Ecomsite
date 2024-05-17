@@ -16,7 +16,7 @@ export class FruitsComponent {
   ngOnInit(): void {
     this.connectService.getBooleanValueObservable().subscribe(value => {
       this.booleanValue = value;
-      console.log('Received Boolean value in about component:', this.booleanValue);
+      console.log('Received Boolean value in fruit component:', this.booleanValue);
     });
   }
 

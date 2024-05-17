@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import{CourseGuardService}  from './course-guard.service'
 import {AuthService}  from './auth.service';
@@ -20,13 +19,12 @@ import { PineappleComponent } from './pineapple/pineapple.component';
 import { MixfruitComponent } from './mixfruit/mixfruit.component';
 import { CartComponent } from './cart/cart.component';
 import { ToCartService } from './service/to-cart.service';
-import { Test3Component } from './test3/test3.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ProductsComponent,
     ContactComponent,
     LoginComponent,
     TestComponent,
@@ -37,7 +35,8 @@ import { Test3Component } from './test3/test3.component';
     PineappleComponent,
     MixfruitComponent,
     CartComponent,
-    Test3Component,
+    
+    
     
     
   ],

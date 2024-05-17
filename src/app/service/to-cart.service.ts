@@ -5,8 +5,8 @@ import { BehaviorSubject, Subject } from 'rxjs';
   providedIn: 'root'
 })
 export class ToCartService {
-  private dataSubject = new Subject<any>();
-  private datasubject2 = new BehaviorSubject<boolean>(false);
+   dataSubject = new Subject<any>();
+   datasubject2 = new BehaviorSubject<boolean>(false);
 
   sendData(data: any) {
     this.dataSubject.next(data);
