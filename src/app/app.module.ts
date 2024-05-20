@@ -19,7 +19,12 @@ import { PineappleComponent } from './pineapple/pineapple.component';
 import { MixfruitComponent } from './mixfruit/mixfruit.component';
 import { CartComponent } from './cart/cart.component';
 import { ToCartService } from './service/to-cart.service';
+import { RouterModule, Routes } from '@angular/router';
 
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'about', component: AboutComponent }
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,11 +44,13 @@ import { ToCartService } from './service/to-cart.service';
     
     
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [
     provideClientHydration(),CourseGuardService,AuthService,ToCartService

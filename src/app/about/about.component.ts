@@ -10,10 +10,7 @@ export class AboutComponent {
   booleanValue: boolean = false;
   constructor(private connectService: ConnectService) {}
   ngOnInit(): void {
-    this.connectService.getBooleanValueObservable().subscribe(value => {
-      this.booleanValue = value;
-      console.log('Received Boolean value in about component:', this.booleanValue);
-    });
+    
   }
 
 }

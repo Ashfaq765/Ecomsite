@@ -25,10 +25,7 @@ export class AppComponent implements OnInit ,OnDestroy {
     private dataService:DataServiceService,private toCartService:ToCartService) {}
 
   ngOnInit(): void {
-    this.connectService.getBooleanValueObservable().subscribe(value => {
-      this.booleanValue = value;
-      console.log('Received Boolean value in HomeComponent:', this.booleanValue);
-    });
+    
     this.subscription=this.dataService.array$.subscribe(item=>{
       this.item=item;
       console.log('Received array value in HomeComponent:', this.item );

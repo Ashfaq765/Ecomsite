@@ -3,7 +3,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: lightgreen; /* Navbar background color */
+    background-color: rgb(50, 94, 198); /* Navbar background color */
 }
 
 .navbar-nav {
@@ -24,60 +24,12 @@
 }
 
 .nav-link:hover {
-    background-color: green; /* Hover background color */
+    background-color:blue; /* Hover background color */
 }
 /* Add this to your global CSS file or the component's CSS file */
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333; /* Navbar background color */
-}
-
-.navbar-nav {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item {
-    margin-right: 10px; /* Adjust the spacing between nav items */
-}
-
-.nav-link {
-    color: #fff; /* Text color */
-    text-decoration: none;
-    padding: 10px;
-}
-
-.nav-link:hover {
-    background-color: #555; /* Hover background color */
-}
 /* Path in CSS should be relative to the stylesheet location */
-
-  h2{
-    color: #fff;
-  }
-
-  .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
   
- 
-  
-  .navbar-nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-item {
-    /* display:inline-flex; */
-    margin-right: 10px;
-  }
   
   .nav-item a {
     color: #fff;
@@ -96,8 +48,11 @@
   .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #1554b7;
     padding: 10px;
+  }
+  .dropdown-menu li {
+  padding: 5px;
   }
   
   .dropdown:hover .dropdown-menu {

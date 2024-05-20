@@ -10,14 +10,11 @@ import { ConnectService } from '../service/connect.service'
 export class FruitsComponent {
   isClicked=false;
 
-  constructor(private router:Router,private connectService: ConnectService){}
+  constructor(private router:Router){}
   booleanValue: boolean = false;
   
   ngOnInit(): void {
-    this.connectService.getBooleanValueObservable().subscribe(value => {
-      this.booleanValue = value;
-      console.log('Received Boolean value in fruit component:', this.booleanValue);
-    });
+     
   }
 
   onClickStawberry(){

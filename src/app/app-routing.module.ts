@@ -11,6 +11,7 @@ import { StawberryComponent } from './stawberry/stawberry.component';
 import { PineappleComponent } from './pineapple/pineapple.component';
 import { MixfruitComponent } from './mixfruit/mixfruit.component';
 import { CartComponent } from './cart/cart.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { path: 'Home', component: HomeComponent },
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'stawberry', component: StawberryComponent },
   { path: 'pineapple', component: PineappleComponent },
   { path: 'mixfruit', component: MixfruitComponent },
-  { path: 'cart', component: CartComponent }
+  { path: 'cart', component: CartComponent },
+  { path: 'login', component: LoginComponent }
 
 
 ];

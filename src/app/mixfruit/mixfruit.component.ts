@@ -11,14 +11,11 @@ import { ConnectService } from '../service/connect.service'
 export class MixfruitComponent  implements OnInit{
   booleanValue: boolean = false;
   quantity: number = 1;
-  constructor(private tocartservice: ToCartService,
-    private connectService: ConnectService) { }
+  constructor(private tocartservice: ToCartService
+    ) { }
 
   ngOnInit(): void {
-    this.connectService.getBooleanValueObservable().subscribe(value => {
-      this.booleanValue = value;
-    });
-   
+     
   }
 
   increaseQuantity() {

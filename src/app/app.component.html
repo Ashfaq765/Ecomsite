@@ -8,7 +8,7 @@
         <li style="display: inline;"><a href="javascript:void(0)" (click)="logout()">Logout</a></li> -->
     </ul>
 </span>
-<div *ngIf="booleanValue">
+<!-- <div *ngIf="booleanValue"> -->
     <nav class="navbar">
         <ul class="navbar-nav">
 
@@ -30,11 +30,7 @@
 
                 </ul>
             </li>
-
-
-
-
-
+            
             <li class="nav-item">
                 <a (click)=cartClicked() class="nav-link" routerLink="/cart">Cart</a>
             </li>
@@ -42,17 +38,14 @@
             <li class="nav-item">
                 <a class="nav-link" routerLink="/contact">contacts us</a>
             </li>
-
-
-
         </ul>
     </nav>
-    <h2 style="text-align: center;">Welcome to Home Component</h2>
+    
     <!-- <span *ngFor="let item of items; let isLast=last" [ngStyle]="{'margin-right': isLast ? '0' : '8px'}">{{item}}</span> -->
 
-</div>
+<!-- </div> -->
 <router-outlet></router-outlet>
-<app-login></app-login>
+<!-- <app-login></app-login> -->
 <!-- <app-cart></app-cart> -->
 <!-- <app-test></app-test> -->
 <!-- <button type="button" class="btn btn-danger">click</button> -->
